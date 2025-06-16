@@ -186,12 +186,20 @@
             </div>
     </section>
 
-    <!--Email Subscription Section-->
+    <!--Email subscribe section-->
     <section id="subscription" class="main-section py-5 fade-in">
-        <div class="container text-center mt-3">
-            <form action="https://YOUR-LINK-HERE" method="POST" target="_blank">
-                <input type="email" name="EMAIL" placeholder="Enter your email">
-                <button type="submit" class="btns btn-primary">Join Newsletter</button>
+        <div class="container text-center">
+            <h2 class="mb-4">Join the Everly Assist Newsletter</h2>
+            <form
+                action="https://everlyassist.us20.list-manage.com/subscribe/post?u=ab1bea319afcfe671f92e473c&amp;id=3315b56115&amp;f_id=00c2f2e0f0"
+                method="post" target="_blank" class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <input type="email" name="EMAIL" class="form-control form-control-lg" placeholder="Enter your email"
+                        required>
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary btn-lg btns w-100">Subscribe</button>
+                </div>
             </form>
         </div>
     </section>
@@ -221,6 +229,20 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="animations.js"></script>
+    <script type="text/javascript">
+        (function ($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
+            fnames[1] = 'FNAME';
+            ftypes[1] = 'text';
+            fnames[2] = 'LNAME';
+            ftypes[2] = 'text';
+        }(jQuery));
+        var $mcj = jQuery.noConflict(true);
+    </script>
+
 </body>
 
 </html>
