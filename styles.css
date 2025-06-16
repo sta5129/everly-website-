@@ -125,6 +125,24 @@ p {
     font-size: 12px;
 }
 
+/* Mailchimp Form */
+#subscription {
+    background-color: #fdfaf6;
+    /* match your site’s palette */
+    border-top: 1px solid #ddd;
+}
+
+#subscription input.form-control {
+    border-radius: 30px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+}
+
+#subscription .btns {
+    border-radius: 30px;
+    font-weight: 600;
+}
+
 .fade-in {
     opacity: 0;
     transform: translateY(20px);
